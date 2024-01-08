@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanu Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/890b499fff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <video autoplay loop muted class="back-video">
+                <source src="video/pexels-luz-calor-som-15377236 (2160p).mp4" type="video/mp4">
+            </video>
+            <nav>
+                <img src="#" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <!-- <h1><span>HI! I'AM DHANUSHREE</span></h1> -->
+                <h1 class="ml8">
+                    <span class="letters-container">
+                      <span class="letters letters-left">Hi</span>
+                      <span class="letters bang">!</span>
+                    </span>
+                    <span class="circle circle-white"></span>
+                    <span class="circle circle-dark"></span>
+                    <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
+                  </h1>
+                  
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about-------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Dhanushree | Full-Stack Developer
+                </h1>
+                <p>As a passionate and results-driven Full-Stack Developer specializing in Information Technology, I bring a dynamic blend of technical expertise and creativity to every project. Currently pursuing a B.Tech degree in the IT department, I have honed my skills in both front-end and back-end development, making me a versatile asset in the ever-evolving landscape of web development.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Relevent Coursework')">Relevent Coursework</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full-Stack Web Engineering</span><br>Creating Websites & Webapps</li>
+                            <li><span>Advance Socket Programming</span><br> Web Development</li>
+                            <li><span>API Development</span><br>Developing of APIs and Sockets</li>
+                            <li><span>Java , Python , PHP , Mysql</span><br></li>
+                            <li><span>Javascript , C , C++(basic) , CSS , HTML</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Relevent Coursework">
+                        <ul>
+                            <li><span>SELFMADE NINJA ACADEMY - Full Stack Web Engineering</span><br>OCT2021 - current</li>
+                            <p>Currently doing an intensive web engineering course at Selfmade Ninja Academy,
+                                where I am gaining in-depth knowledge and practical experience in web development
+                                and engineering.</p>
+                
+                        </ul>
+                        <ul>
+                            <li><span>UDEMY - c++ and Java training crash course 2022</span><br>OCT 2022 | Through Remote Mode</li>
+                            <p>Successfully completed the C++ and Java Training Crash Course for Beginners 2022
+                                on Udemy, a comprehensive program designed to provide a strong foundation in two
+                                essential programming languages, C++ and Java.</p>
+                
+                        </ul>
+                        
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            
+                            <li><span> 2020 - NOW</span><br>BTech Information Technology from V.S.B Engineering College Karur</li>
+                            <li><span>2021 - 2022</span><br>Bharani Park Hr Sec School From Karur</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            
+                            <li><span>Certified Full Stack Developer By Developer Rahu</li></span>
+                            <li><span>Participated in a comprehensive workshop on Agile methodologies, where I gain</li></span>
+                            <li><span>Done 40+ Certified courses in Udemy</li></span>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------services--------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-layer-group"></i>
+                <h2>Full-Stack Development</h2>
+                <p> 
+                </p>
+                <a href="">Learn More <i class="fa-solid fa-up-right-from-square lin" style="font-size: 10px;"></i></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                
+                <h2>Web Development</h2>
+                <p> 
+                </p>
+                <a href="">Learn More <i class="fa-solid fa-up-right-from-square lin" style="font-size: 10px;"></i></a>
+            </div>
+           
+    </div>
+</div>
+<!-- -----------------portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h2>ECOMMERCE WEBSITE</h2>
+
+                    <p>Currently collaborating with my teammate, Sathish, on an exciting project to
+                        develop an ECommerce website using HTML and CSS. This project aims to
+                        create a user-friendly and visually appealing online shopping platform.
+                        website, offering a vast selection of products at your fingertips 
+                    </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>HOSPITAL MANAGEMENT SYSTEM</h3>
+                    <p>Our hospital management system optimizes healthcare operations, fostering
+                        seamless patient care and efficient administrative processes
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>GRAPHICAL PASSWORD AUTHENTICATION</h3>
+                    <p>Users can set passwords using images and their sequence using this project,
+                        which implements the same concept for password authentication as recapcha
+                        (checks for Human).
+                    </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a> 
+    </div>
+</div>
+
+<!-- ------------------------contact------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-regular fa-envelope"></i>  dhanushreekanan@gmail.com</p>
+                <p><i class="fa-solid fa-signal"></i>+91 8925434234</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/dhanu resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your E-mail" required>
+                    <textarea name="Message" id="" cols="" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+               
+            </div>
+        </div>
+    </div>
+   
+</div>
+<script src="script.js"></script>
+<!-- <script src="sc.js"></script> -->
+</body>
+
+</html>
